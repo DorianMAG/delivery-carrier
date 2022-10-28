@@ -18,6 +18,7 @@
     ],
     "website": "http://www.acsone.eu/",
     "data": [
+        "security/groups.xml",
         "security/ir.model.access.csv",
         "data/cron_end_of_day_report.xml",
         "data/product_product.xml",

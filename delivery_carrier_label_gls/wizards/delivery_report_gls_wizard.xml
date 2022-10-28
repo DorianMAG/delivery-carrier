@@ -35,7 +35,7 @@
     name="GLS: Get End of Day Report"
     sequence="50"
     parent="stock.menu_stock_inventory_control"
-    groups="stock.group_stock_manager"
+    groups="group_gls_report_manager"
     action="delivery_report_gls_wizard_act_window"
   />
 </odoo>
