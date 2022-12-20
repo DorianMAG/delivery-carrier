@@ -1,2 +1,1 @@
-from . import common
-from . import test_package
+from . import test_max_weight_constraint
