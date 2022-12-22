@@ -8,7 +8,7 @@
     <field name="sale_ok" eval="False" />
     <field name="name">Coûts de livraison - GLS</field>
     <field
-            name="image"
+            name="image_1920"
             type="base64"
             file="delivery_carrier_label_gls/static/img/gls.jpg"
         />

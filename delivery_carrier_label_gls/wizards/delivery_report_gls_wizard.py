@@ -32,7 +32,7 @@ class DeliveryReportGls(models.TransientModel):
                 raise ValidationError(_("Only GLS supports delivery reports."))
 
     @api.model
-    def cron(self):
+    def _cron_end_of_day_report(self):
         return self.create({})._get_end_of_day_report()
 
     def get_end_of_day_report(self):
