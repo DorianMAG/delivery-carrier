@@ -8,6 +8,7 @@
     "category": "Delivery",
     "depends": [
         "delivery",
+        "delivery_package_automatic",
         "delivery_carrier_info",
     ],
     "website": "https://github.com/OCA/delivery-carrier",
