@@ -1,3 +1,6 @@
 odoo-test-helper
 vcrpy
 vcrpy-unittest
+
+# DONT MERGE
+odoo-addon-delivery-automatic-package @ git+https://github.com/OCA/delivery-carrier.git@refs/pull/642/head#subdirectory=setup/delivery_automatic_package
