@@ -15,7 +15,7 @@
                     <div class="page">
                         <div class="oe_structure" />
                         <div class="row" id="header_info">
-                            <div class="col-3">
+                            <div class="col-12">
                                 <h3>GLS Delivery Report: <div
                                         t-field="o.report_datetime"
                                     /></h3>
