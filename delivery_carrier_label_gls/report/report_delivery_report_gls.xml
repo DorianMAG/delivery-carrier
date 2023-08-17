@@ -15,14 +15,12 @@
                     <div class="page">
                         <div class="oe_structure" />
                         <div class="row" id="header_info">
-                            <div class="col-3">
                                 <h3>GLS Delivery Report: <div
-                                        t-field="o.report_datetime"
-                                    /></h3>
+                                    t-field="o.report_datetime"
+                                /></h3>
                                 <p>GLS Contact ID: <span
-                                        t-field="o.carrier_id.gls_contact_id"
-                                    /></p>
-                            </div>
+                                    t-field="o.carrier_id.gls_contact_id"
+                                /></p>
                         </div>
                         <div class="row" id="packages_info">
                             <t t-set="number_packages" t-value="0" />
